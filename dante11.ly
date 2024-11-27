@@ -14,11 +14,6 @@
     r2 c4 c4 | c2 c4 c4 | c4 r4 r4 c4 | c2 c4 c4 | c2 c2 r1 | c1 \break
   }
 
-  \layout {
-      \context {
-      \Score
-      proportionalNotationDuration = #(ly:make-moment 1/8)
-    }
-  }
+  \layout {}
   \midi {}
 }
